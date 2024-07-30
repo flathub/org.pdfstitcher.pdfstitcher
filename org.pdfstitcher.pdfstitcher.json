@@ -46,7 +46,7 @@
                 {
                     "type": "file",
                     "url": "https://raw.githubusercontent.com/cfcurtis/pdfstitcher/main/build/org.pdfstitcher.pdfstitcher.metainfo.xml",
-                    "sha256": "bd082fcfcbfd87db1ed28f5c2e8d787f65c90b9a1f5bee64a24ea3c1f274a47b",
+                    "sha256": "d358f90e40950795c04d90ac49743bd2fed9d5ae2205cd06a81d932b785da2b4",
                     "dest-filename": "org.pdfstitcher.pdfstitcher.metainfo.xml"
                 },
                 {
