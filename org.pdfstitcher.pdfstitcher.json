@@ -29,8 +29,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/49/b9/edf056cfba93a5823a1b3ad35057ebc26a643289bb1d69dfca4105808bf7/pdfstitcher-1.0.1.tar.gz",
-                    "sha256": "d7f9673817769f76e6057e3a629874e1d0cd79585a1fabf29d5ecbf32b254093",
+                    "url": "https://files.pythonhosted.org/packages/fd/fa/11e6134c2402856c6d5330bef6cc92e233ea7b8db1b58d786a33208ca00b/pdfstitcher-1.0.2.tar.gz",
+                    "sha256": "85a03cd953b66a644d72f7249d72793659c3d4307f32c19d2883e6ca5e0ca48a",
                     "x-checker-data": {
                         "type": "pypi",
                         "is-main-source": true,
@@ -46,7 +46,7 @@
                 {
                     "type": "file",
                     "url": "https://raw.githubusercontent.com/cfcurtis/pdfstitcher/main/build/org.pdfstitcher.pdfstitcher.metainfo.xml",
-                    "sha256": "bd082fcfcbfd87db1ed28f5c2e8d787f65c90b9a1f5bee64a24ea3c1f274a47b",
+                    "sha256": "d358f90e40950795c04d90ac49743bd2fed9d5ae2205cd06a81d932b785da2b4",
                     "dest-filename": "org.pdfstitcher.pdfstitcher.metainfo.xml"
                 },
                 {
@@ -54,7 +54,6 @@
                     "url": "https://raw.githubusercontent.com/cfcurtis/pdfstitcher/main/build/org.pdfstitcher.pdfstitcher.desktop",
                     "sha256": "1b727fe210df3d56bf5da3578b334b14e4274d747ae1ce70c9de94d3f36f344c",
                     "dest-filename": "org.pdfstitcher.pdfstitcher.desktop"
-
                 }
             ]
         }
