@@ -12,8 +12,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/63/f7/ffbb6d2eb67b80a45b8a0834baa5557a14a5ffce0979439e7cd7f0c4055b/lxml-5.2.2.tar.gz",
-                    "sha256": "bb2dc4898180bea79863d5487e5f9c7c34297414bad54bcd0f0852aee9cfdb87",
+                    "url": "https://files.pythonhosted.org/packages/e7/6b/20c3a4b24751377aaa6307eb230b66701024012c29dd374999cc92983269/lxml-5.3.0.tar.gz",
+                    "sha256": "4e109ca30d1edec1ac60cdbe341905dc3b8f55b16855e03a54aaf59e51ec8c6f",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "lxml"
@@ -30,8 +30,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/84/fb/1a249de406daf2b4ebd2d714b739e8519034617daec085e3833c1a3ed57c/pybind11-2.13.1-py3-none-any.whl",
-                    "sha256": "97881536abe0cd4260a9ccc5bf6d1cf3113318f08af1feb82d4b9f95e93f0aa4",
+                    "url": "https://files.pythonhosted.org/packages/04/e8/a22d08220cb5e230007d9b0c11e429c3b19d01315d1a99dbd45e3bf97386/pybind11-2.13.5-py3-none-any.whl",
+                    "sha256": "dc35a98b61a0d23ee8599b317664f5be7e259fdc369a3b810b1ebbc3f5674d27",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "pybind11",
@@ -88,8 +88,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/9d/ea/6d76df31432a0e6fdf81681a895f009a4bb47b3c39036db3e1b528191d52/pyparsing-3.1.2-py3-none-any.whl",
-                    "sha256": "f9db75911801ed778fe61bb643079ff86601aca99fcae6345aa67292038fb742",
+                    "url": "https://files.pythonhosted.org/packages/78/4d/e616aed5bcd6556033ade80f47dae49349f74ea86d424516ea5ad94b4472/pyparsing-3.1.3-py3-none-any.whl",
+                    "sha256": "1e80fdf93e6c1aeaf4702523f1d48f66d52fa6459096a8f812591157270a5896",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "pyparsing",
