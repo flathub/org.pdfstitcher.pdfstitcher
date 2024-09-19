@@ -26,4 +26,4 @@ Notes to self, because it's infrequent enough that I forget every time.
     flatpak run org.pdfstitcher.pdfstitcher
     ```
 
-6. Open PR to merge changes, cross fingers and hope for the best.
+6. Open PR to merge changes, cross fingers and hope for the best. Include the phrase `bot, build` to trigger test build.
