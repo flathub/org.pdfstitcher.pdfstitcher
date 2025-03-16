@@ -7,8 +7,8 @@
     "sources": [
         {
             "type": "archive",
-            "url": "https://files.pythonhosted.org/packages/10/da/09549ebdea6e8b309c9520e287c9398ac14a01648cd2a51b88483f6d2649/pikepdf-9.2.1.tar.gz",
-            "sha256": "5e31aeb15ab21ba340a9013c1665e7ce85bd1f8167e6710c455d51f82c2e64e0",
+            "url": "https://files.pythonhosted.org/packages/1c/2c/0707248e2bdfe148c53c43ea1a7fce730eab9ae8bbe65470720f5a7ddd25/pikepdf-9.5.2.tar.gz",
+            "sha256": "190b3bb4891a7a154315f505d7dcd557ef21e8130cea8b78eb9646f8d67072ed",
             "x-checker-data": {
                 "type": "pypi",
                 "name": "pikepdf"
@@ -24,8 +24,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/qpdf/qpdf/releases/download/v11.9.1/qpdf-11.9.1.tar.gz",
-                    "sha256": "2ba4d248f9567a27c146b9772ef5dc93bd9622317978455ffe91b259340d13d1",
+                    "url": "https://github.com/qpdf/qpdf/releases/download/v12.0.0/qpdf-12.0.0.tar.gz",
+                    "sha256": "7380fe9d5b612a6c912cbf3a5875d9e27c20db6c559ebca51360da5125f351b8",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 5542,
