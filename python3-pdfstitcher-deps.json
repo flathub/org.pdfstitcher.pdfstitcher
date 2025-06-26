@@ -48,8 +48,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/7d/ec/40c0ddd29ef4daa6689a2b9c5ced47d5b58fa54ae149b19e9a97f4979c8c/meson_python-0.17.1-py3-none-any.whl",
-                    "sha256": "30a75c52578ef14aff8392677b09c39346e0a24d2b2c6204b8ed30583c11269c",
+                    "url": "https://files.pythonhosted.org/packages/28/58/66db620a8a7ccb32633de9f403fe49f1b63c68ca94e5c340ec5cceeb9821/meson_python-0.18.0-py3-none-any.whl",
+                    "sha256": "3b0fe051551cc238f5febb873247c0949cd60ded556efa130aa57021804868e2",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "meson-python",
@@ -69,6 +69,65 @@
             ]
         },
         {
+            "name": "python3-requests",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"requests\" --no-build-isolation"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/a7/c2/fe1e52489ae3122415c51f387e221dd0773709bad6c6cdaa599e8a2c5185/urllib3-2.5.0-py3-none-any.whl",
+                    "sha256": "e6b01673c0fa6a13e374b50871808eb3bf7046c4b125b216f6bf1cc604cff0dc",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "urllib3",
+                        "packagetype": "bdist_wheel"
+                    }
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl",
+                    "sha256": "946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "idna",
+                        "packagetype": "bdist_wheel"
+                    }
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/7c/e4/56027c4a6b4ae70ca9de302488c5ca95ad4a39e190093d6c1a8ace08341b/requests-2.32.4-py3-none-any.whl",
+                    "sha256": "27babd3cda2a6d50b30443204ee89830707d396671944c998b5975b031ac2b2c",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "requests",
+                        "packagetype": "bdist_wheel"
+                    }
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/20/94/c5790835a017658cbfabd07f3bfb549140c3ac458cfc196323996b10095a/charset_normalizer-3.4.2-py3-none-any.whl",
+                    "sha256": "7f56930ab0abd1c45cd15be65cc741c28b1c9a34876ce8c17a2fa107810c0af0",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "charset_normalizer",
+                        "packagetype": "bdist_wheel"
+                    }
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/84/ae/320161bd181fc06471eed047ecce67b693fd7515b16d495d8932db763426/certifi-2025.6.15-py3-none-any.whl",
+                    "sha256": "2e0c7ce7cb5d8f8634ca55d2ba7e6ec2689a2fd6537d8dec1296a477a4910057",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "certifi",
+                        "packagetype": "bdist_wheel"
+                    }
+                }
+            ]
+        },
+        {
             "name": "python3-wxpython",
             "buildsystem": "simple",
             "build-commands": [
@@ -82,8 +141,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/a4/f5/8c272764770f47fd419cc2eff4c4fa1c0681c71bcc2f3158b3a83d1339ff/wxPython-4.2.2.tar.gz",
-                    "sha256": "5dbcb0650f67fdc2c5965795a255ffaa3d7b09fb149aa8da2d0d9aa44e38e2ba",
+                    "url": "https://files.pythonhosted.org/packages/4c/d9/4451392d3d6ba45aa23aa77a6f1a9970b43351b956bf61e10fd513a1dc38/wxPython-4.2.3.tar.gz",
+                    "sha256": "20d6e0c927e27ced85643719bd63e9f7fd501df6e9a8aab1489b039897fd7c01",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "wxPython"
@@ -100,8 +159,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/eb/38/ac33370d784287baa1c3d538978b5e2ea064d4c1b93ffbd12826c190dd10/pytz-2025.1-py2.py3-none-any.whl",
-                    "sha256": "89dd22dca55b46eac6eda23b2d72721bf1bdfef212645d81513ef5d03038de57",
+                    "url": "https://files.pythonhosted.org/packages/81/c4/34e93fe5f5429d7570ec1fa436f1986fb1f00c3e0f43a589fe2bbcd22c3f/pytz-2025.2-py2.py3-none-any.whl",
+                    "sha256": "5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "pytz",
@@ -143,65 +202,6 @@
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "appdirs",
-                        "packagetype": "bdist_wheel"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "python3-requests",
-            "buildsystem": "simple",
-            "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"requests\" --no-build-isolation"
-            ],
-            "sources": [
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/c8/19/4ec628951a74043532ca2cf5d97b7b14863931476d117c471e8e2b1eb39f/urllib3-2.3.0-py3-none-any.whl",
-                    "sha256": "1cee9ad369867bfdbbb48b7dd50374c0967a0bb7710050facf0dd6911440e3df",
-                    "x-checker-data": {
-                        "type": "pypi",
-                        "name": "urllib3",
-                        "packagetype": "bdist_wheel"
-                    }
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl",
-                    "sha256": "946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3",
-                    "x-checker-data": {
-                        "type": "pypi",
-                        "name": "idna",
-                        "packagetype": "bdist_wheel"
-                    }
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl",
-                    "sha256": "70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6",
-                    "x-checker-data": {
-                        "type": "pypi",
-                        "name": "requests",
-                        "packagetype": "bdist_wheel"
-                    }
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/0e/f6/65ecc6878a89bb1c23a086ea335ad4bf21a588990c3f535a227b9eea9108/charset_normalizer-3.4.1-py3-none-any.whl",
-                    "sha256": "d98b1668f06378c6dbefec3b92299716b931cd4e6061f3c875a71ced1780ab85",
-                    "x-checker-data": {
-                        "type": "pypi",
-                        "name": "charset_normalizer",
-                        "packagetype": "bdist_wheel"
-                    }
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/38/fc/bce832fd4fd99766c04d1ee0eead6b0ec6486fb100ae5e74c1d91292b982/certifi-2025.1.31-py3-none-any.whl",
-                    "sha256": "ca78db4565a652026a4db2bcdf68f2fb589ea80d0be70e03929ed730746b84fe",
-                    "x-checker-data": {
-                        "type": "pypi",
-                        "name": "certifi",
                         "packagetype": "bdist_wheel"
                     }
                 }
